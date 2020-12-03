@@ -52,7 +52,7 @@ body{
 }
 
 .App-main {
-  padding: 200px 10% 400px 10%;
+  padding: 200px 10% 10px 10%;
   margin: 0 auto;
   background: #FC466B;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, salmon,#3F5EFB);  /* Chrome 10-25, Safari 5.1-6 */
@@ -68,4 +68,45 @@ body{
   align-content: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.port-image{
+  height: 350px !important;
+}
+
+.port-button{
+  text-align: center;
+  margin: auto;
+  width: 20%;
+  font-weight: 900;
+  background-color: purple;
+  transition: background-color 0.5s;
+  border: 2px solid purple;
+  border-radius: 20px;
+}
+.port-button a{
+  text-decoration: none;
+  color: white !important;
+}
+
+ a{
+  text-decoration: none;
+  color: blue !important;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 900px) {
+  .port-image{
+  height: 120px !important;
+  }
+  .port-button{
+    width: 100%;
+  }
+}
+
+footer{
+  background-color: #d1e6d5;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 900;
 }

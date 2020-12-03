@@ -15,21 +15,29 @@ export default function SectionOne() {
 
   const sections = [
     {
-      title: 'ClARITY 360 HUB',
-      subtitle: 'A PROFESSIONAL CV WRITING WEBSITE.'
-    },
-    {
       title: '8TH BERYL',
-      subtitle: 'An event planning website'
+      subtitle: 'An event planning website',
+      image: '/images/8thberyl.png',
+      link: 'https://8th-beryl.netlify.app/'
     },
     {
       title: 'KAWURA',
-      subtitle: 'An online platform for registering for virtual/physical class'
+      subtitle: 'An online platform to allow instructors craete and manage classes and also give learners access to classes with ease',
+      image: '/images/kawura.png',
+      link: 'https://kawura-prototype.herokuapp.com/'
     },
-    // {
-    //   title: 'Vitae voluptates',
-    //   subtitle: 'In ullam et nulla repudiandae praesentium, laboriosam quas tempore fuga asperiores eveniet amet.'
-    // }
+    {
+      title: 'ClARITY 360 HUB',
+      subtitle: 'A professional CV writing website',
+      image: '/images/clarity.png',
+      link: 'https://clarity360hub.com/'
+    },
+    {
+      title: 'KACHELAN',
+      subtitle: 'An Agro-Pharmaceutical website ',
+      image: '/images/kachelan.png',
+      link: 'https://kachelan.com/'
+    }
   ];
 
   useEffect(() => {
@@ -71,10 +79,14 @@ export default function SectionOne() {
     <div>
       <main className="App-main">
         {
-          sections.map(({ title, subtitle }) => (
+          sections.map(({ title, subtitle, image, link }) => (
             <div className="App-section" key={title} ref={addToRefs}>
+              <img src={image} alt='website' className='port-image' />
               <h2>{title}</h2>
               <p>{subtitle}</p>
+              <button className='port-button'>
+                <a href={link} target="_blank" >Visit site</a>
+              </button>
             </div>
           ))
         }

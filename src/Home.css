@@ -62,6 +62,15 @@
     border: 2px solid purple;
     border-radius: 50px;
 }
+
+.font-icon{
+font-size: 30px;
+margin: 10px;
+}
+
+.hero .content .text .cta a {  
+    color:white !important;
+}
 .hero .content .text .cta:hover {
     background-color: black;
     border: 2px solid black !important;
@@ -114,8 +123,6 @@
   }
 
 
-
-
 .lines{
 	height: 400vh;
   background: black;
@@ -126,25 +133,4 @@
   margin: 100px auto 0;
 }
 
-svg {
-  max-width: 600px;
-  overflow: visible;
-  margin-top: 60vh;
-}
 
-.ball {
-  fill: white;
-  visibility: hidden;
-}
-
-.line {
-  fill: none;
-  stroke: white;
-  stroke-width: 2px;
-}
-text {
-  fill: white;
-  font-size: 15px;
-  font-family: "Signika Negative", sans-serif; 
-  visibility: hidden;
-}

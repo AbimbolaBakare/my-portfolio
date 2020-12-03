@@ -84,7 +84,21 @@ function Home() {
 
             <p>{data.description} </p>
 
-            <button className='cta'> Connect Now </button>
+            <a href="mailto:deomolara@yahoo.com.com" target="_blank">
+              <i className="far fa-envelope font-icon"></i>
+            </a>
+            <a href='https://github.com/AbimbolaBakare?tab=repositories' target="_blank">
+              <i className="fab fa-github font-icon"></i>
+            </a>
+
+            <a href='https://www.linkedin.com/in/abimbola-bakare-470784b3/' target="_blank">
+              <i className="fab fa-linkedin-in font-icon" ></i>
+            </a>
+
+
+            <a href="/images/BAKARE_ABIMBOLA_SOPHIA.pdf" target="_blank">
+              <i className="fas fa-file font-icon">Resume</i>
+            </a>
           </div>
 
           <div className='watch__wrapper' ref={(div) => (watch__wrapper = div)}>
