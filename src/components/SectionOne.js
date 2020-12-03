@@ -85,7 +85,7 @@ export default function SectionOne() {
               <h2>{title}</h2>
               <p>{subtitle}</p>
               <button className='port-button'>
-                <a href={link} target="_blank" >Visit site</a>
+                <a href={link} target="_blank" rel="noreferrer">Visit site</a>
               </button>
             </div>
           ))

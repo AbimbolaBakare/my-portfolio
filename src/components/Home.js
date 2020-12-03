@@ -1,7 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { TweenMax } from 'gsap';
 import '../Home.css';
-import data from '../data';
 import { gsap } from "gsap";
 import Switch from './Switch';
 
@@ -78,11 +77,12 @@ function Home() {
         <Switch click={() => toggleBackground()} />
         <div className='content'>
           <div className='text' ref={(div) => (text = div)}>
-            <h1>{data.last_name} <span>{data.first_name} </span> </h1>
+            <h1>Bakare <span>Abimbola </span> </h1>
 
-            <h5>{data.role}</h5>
+            <h5>Frontend Developer</h5>
 
-            <p>{data.description} </p>
+            <p>I'm a Front-End Developer based in Lagos, Nigeria. I have serious passion for creating intuitive, dynamic user experiences.  I am adept about furthering my development skills through real life projects and also love translating UI designs to
+              reusable code. Let's make something special. I am proficient in HTML, CSS, JavaScript, React, Redux, Vue </p>
 
             <a href="mailto:deomolara@yahoo.com.com" target="_blank" rel="noreferrer">
               <i className="far fa-envelope font-icon"></i>
