@@ -22,7 +22,7 @@ function Home() {
 
     gsap.to(headerRef.current, { color: textColor, backgroundColor: background, duration: 1, ease: 'none' });
 
-  }, [background]);
+  }, [textColor, background]);
 
   let layer__1 = useRef(null);
   let layer__2 = useRef(null);
@@ -84,19 +84,19 @@ function Home() {
 
             <p>{data.description} </p>
 
-            <a href="mailto:deomolara@yahoo.com.com" target="_blank">
+            <a href="mailto:deomolara@yahoo.com.com" target="_blank" rel="noreferrer">
               <i className="far fa-envelope font-icon"></i>
             </a>
-            <a href='https://github.com/AbimbolaBakare?tab=repositories' target="_blank">
+            <a href='https://github.com/AbimbolaBakare?tab=repositories' target="_blank" rel="noreferrer">
               <i className="fab fa-github font-icon"></i>
             </a>
 
-            <a href='https://www.linkedin.com/in/abimbola-bakare-470784b3/' target="_blank">
+            <a href='https://www.linkedin.com/in/abimbola-bakare-470784b3/' target="_blank" rel="noreferrer">
               <i className="fab fa-linkedin-in font-icon" ></i>
             </a>
 
 
-            <a href="/images/BAKARE_ABIMBOLA_SOPHIA.pdf" target="_blank">
+            <a href="/images/BAKARE_ABIMBOLA_SOPHIA.pdf" target="_blank" rel="noreferrer">
               <i className="fas fa-file font-icon">Resume</i>
             </a>
           </div>
