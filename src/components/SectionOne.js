@@ -15,10 +15,10 @@ export default function SectionOne() {
 
   const sections = [
     {
-      title: '8TH BERYL',
-      subtitle: 'An event planning website',
-      image: '/images/8thberyl.png',
-      link: 'https://8th-beryl.netlify.app/'
+      title: 'TRIVIA APP',
+      subtitle: 'A quiz web app built with react and trivia database API.',
+      image: '/images/trivia.png',
+      link: 'https://github.com/AbimbolaBakare/react-quiz-app'
     },
     {
       title: 'KAWURA',
@@ -27,17 +27,23 @@ export default function SectionOne() {
       link: 'https://kawura-prototype.herokuapp.com/'
     },
     {
+      title: 'MOVIE APP',
+      subtitle: 'A movie listing web app with search function built with react and IMDB API. ',
+      image: '/images/movieapp.png',
+      link: 'https://github.com/AbimbolaBakare/react-movie-app'
+    },
+    {
+      title: '8TH BERYL',
+      subtitle: 'An event planning website',
+      image: '/images/8thberyl.png',
+      link: 'https://8th-beryl.netlify.app/'
+    },
+    {
       title: 'ClARITY 360 HUB',
       subtitle: 'A professional CV writing website',
       image: '/images/clarity.png',
       link: 'https://clarity360hub.com/'
     },
-    {
-      title: 'KACHELAN',
-      subtitle: 'An Agro-Pharmaceutical website ',
-      image: '/images/kachelan.png',
-      link: 'https://kachelan.com/'
-    }
   ];
 
   useEffect(() => {
