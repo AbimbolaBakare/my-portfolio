@@ -21,6 +21,12 @@ export default function SectionOne() {
       link: 'https://github.com/AbimbolaBakare/react-quiz-app'
     },
     {
+      title: 'WEATHER APP',
+      subtitle: 'A weather information app with Graph built with React, material UI, Open Weather MAP API and Chart.js',
+      image: '/images/weather.png',
+      link: 'https://react-weather-graph.netlify.app/'
+    },
+    {
       title: 'KAWURA',
       subtitle: 'An online platform to allow instructors craete and manage classes and also give learners access to classes with ease',
       image: '/images/kawura.png',
@@ -37,12 +43,6 @@ export default function SectionOne() {
       subtitle: 'An event planning website',
       image: '/images/8thberyl.png',
       link: 'https://8th-beryl.netlify.app/'
-    },
-    {
-      title: 'ClARITY 360 HUB',
-      subtitle: 'A professional CV writing website',
-      image: '/images/clarity.png',
-      link: 'https://clarity360hub.com/'
     },
   ];
 
