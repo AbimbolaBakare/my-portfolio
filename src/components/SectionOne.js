@@ -15,6 +15,12 @@ export default function SectionOne() {
 
   const sections = [
     {
+      title: 'COVID 19 DASHBOARD - NIGERIA',
+      subtitle: 'A COVID19 statistics dashboard for cases in Nigeria built with React, Redux, Bootstrap, Chart.js and others',
+      image: '/images/covid.png',
+      link: 'https://covid-19-nigeria-dashboard.herokuapp.com/'
+    },
+    {
       title: 'TRIVIA APP',
       subtitle: 'A quiz web app built with react and trivia database API.',
       image: '/images/trivia.png',
