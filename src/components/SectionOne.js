@@ -21,6 +21,12 @@ export default function SectionOne() {
       link: 'https://covid-19-nigeria-dashboard.herokuapp.com/'
     },
     {
+      title: 'REACT EXPENSE AND INCOME TRACKING APP',
+      subtitle: 'An expense tracker built with react, firebase(for storage), bootstrap, React Context, Chart.js',
+      image: '/images/expense.png',
+      link: 'https://react-expense-tracking-app.netlify.app/'
+    },
+    {
       title: 'TRIVIA APP',
       subtitle: 'A quiz web app built with react and trivia database API.',
       image: '/images/trivia.png',
