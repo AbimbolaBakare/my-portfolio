@@ -22,7 +22,7 @@ export default function SectionOne() {
     },
     {
       title: 'REACT EXPENSE AND INCOME TRACKING APP',
-      subtitle: 'An expense tracker built with react, firebase(for storage), bootstrap, React Context, Chart.js',
+      subtitle: 'An expense tracker built with react, firebase(for storage and authentication), bootstrap, React Context, Chart.js',
       image: '/images/expense.png',
       link: 'https://react-expense-tracking-app.netlify.app/'
     },
