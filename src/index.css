@@ -71,7 +71,10 @@ body{
 }
 
 .port-image{
+  margin: auto;
   height: 350px !important;
+  width:auto;
+  border: 1px solid #ccc;
 }
 
 .port-button{

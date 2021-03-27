@@ -15,6 +15,12 @@ export default function SectionOne() {
 
   const sections = [
     {
+      title: 'YOUBOX',
+      subtitle: 'A video uploading/streaming app built with react. It makes use of redux for state management, cloudinary to manage video uploads, firebase for authentication and storing uploaded video links against a user. You can upload a video, share video link with people, like and also comment on a video.',
+      image: '/images/youbox.png',
+      link: 'https://you-box.web.app/'
+    },
+    {
       title: 'COVID 19 DASHBOARD - NIGERIA',
       subtitle: 'A COVID19 statistics dashboard for cases in Nigeria built with React, Redux, Bootstrap, Chart.js and others',
       image: '/images/covid.png',
