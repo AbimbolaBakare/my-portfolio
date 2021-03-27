@@ -96,7 +96,7 @@ function Home() {
             </a>
 
 
-            <a href="/images/BAKARE_ABIMBOLA_SOPHIA.pdf" target="_blank" rel="noreferrer">
+            <a href="/images/BAKARE_ABIMBOLA_SOPHIA2.pdf" target="_blank" rel="noreferrer">
               <i className="fas fa-file font-icon">Resume</i>
             </a>
           </div>
